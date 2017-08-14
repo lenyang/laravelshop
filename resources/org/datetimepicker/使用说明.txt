@@ -1,0 +1,16 @@
+<!-- ʱ���� -->
+<link href="{{asset('/resources/org/datetimepicker/jquery-ui-1.9.2.custom.min.css')}}" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="{{asset('/resources/org/datetimepicker/jquery-ui-1.9.2.custom.min.js')}}"></script>
+<script type="text/javascript" charset="utf-8" src="{{asset('/resources/org/datetimepicker/datepicker-zh_cn.js')}}"></script>
+<link rel="stylesheet" media="all" type="text/css" href="__PUBLIC__/datetimepicker/time/jquery-ui-timepicker-addon.min.css'}}" />
+<script type="text/javascript" src="{{asset('/resources/org/datetimepicker/time/jquery-ui-timepicker-addon.min.js'}}"></script>
+<script type="text/javascript" src="{{asset('/resources/org/datetimepicker/time/i18n/jquery-ui-timepicker-addon-i18n.min.js'}}"></script>
+
+
+
+<input type="text" id="st" />
+
+
+
+$.timepicker.setDefaults($.timepicker.regional['zh-CN']);
+$("#st").datepicker({ dateFormat: "yy-mm-dd" });
