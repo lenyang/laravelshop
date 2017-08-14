@@ -1,0 +1,2 @@
+# laravelshop
+laravelshop是一个基于laravel框架开发的一个简易商城，属于框架学习实战项目，基本功能都已实现
